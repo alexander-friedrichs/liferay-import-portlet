@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_1_0.xsd"
+	version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_1_0.xsd
+                        http://java.sun.com/xml/ns/portlet/portlet-app_1_0.xsd">
+
+	<portlet>
+		<description>LiferayImportPortlet</description>
+		<portlet-name>LiferayImportPortlet</portlet-name>
+		<display-name>LiferayImportPortlet</display-name>
+
+		<portlet-class>de.unioninvestment.portal.common.vaadin7.portlet.LocalStaticFilesVaadinPortlet</portlet-class>
+		<init-param>
+			<name>UI</name>
+			<value>de.unioninvestment.portal.liferay.addon.LiferayImportPortlet</value>
+		</init-param>
+
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+
+		<portlet-info>
+			<title>LiferayImportPortlet</title>
+			<short-title>LiferayImportPortlet</short-title>
+			<keywords>LiferayImportPortlet</keywords>
+		</portlet-info>
+	</portlet>
+</portlet-app>
